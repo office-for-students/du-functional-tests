@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+local_settings.py
+local.py
+db.sqlite3
+
+# Env stuff
+.env
+env.sh
+
+# Jetbrains stuff
+.idea
+
+# VSCode stuff
+.vscode
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Compiled SASS files
+**/*.css*
+
+# Media files
+media/*
+
+static/**
