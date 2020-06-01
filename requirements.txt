@@ -1,0 +1,2 @@
+behave-webdriver==0.3.0
+webdriver-manager==2.5.2
