@@ -4,8 +4,8 @@ I should be able to search university Course with Study Mode filter and get resu
 
 Scenario Outline: Course search with Study Mode filter does not return error
     Given I open the url <search_page_url>
-    When  The cookies have been accepted
-    And   I add "french" to the inputfield "#course"
+    And   The cookies have been accepted
+    When  I add "french" to the inputfield "#course"
     And   I click on the button ".search-landing-page__nav-card-button"
     Then  I expect that the url is <search_results_page_url>
     When  I pause for <wait_time>ms
