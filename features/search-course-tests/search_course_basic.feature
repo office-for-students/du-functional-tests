@@ -4,8 +4,8 @@ I should be able to search university Course and get results
 
 Scenario Outline: Search Course and land on Results page
     Given I open the url <search_page_url>
-    When  The cookies have been accepted
-    And   I add "french" to the inputfield "#course"
+    And   The cookies have been accepted
+    When  I add "french" to the inputfield "#course"
     And   I click on the element ".search-landing-page__nav-card-button"
     Then  I expect that the url is <search_results_page_url>
     And   I expect that element ".course-finder-results__heading" does exist
